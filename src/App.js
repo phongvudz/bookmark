@@ -1,21 +1,19 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="">
-      <header className="container relative flex h-20 py-6 mb-16 sticky  bg-white top-0 border-gray-200 border-b-2  md:border-none md:p-10">
+      <header className="container  flex h-20 py-6 mb-16 sticky  bg-white top-0 border-gray-200 border-b-2  md:border-none md:p-10">
         {/*nav*/}
         <nav className="flex flex-1 justify-between  items-center ">
           {/*logo*/}
           <div className="container">
-            <a href="#">
               <img
                 className=" w-40 md:w-auto z-10 absolute top-7 left-2 transform translate-x-3"
                 src="https://leonidasesteban.github.io/bookmark-landing/static/images/logo-bookmark.svg"
                 alt="logo website"
               ></img>
-            </a>
           </div>
           {/*lists*/}
           <div className="">
@@ -67,7 +65,7 @@ function App() {
           </div>
           {/*image*/}
           <div>
-            <img src="https://leonidasesteban.github.io/bookmark-landing/static/images/illustration-hero.svg"></img>
+            <img src="https://leonidasesteban.github.io/bookmark-landing/static/images/illustration-hero.svg" alt="sadsa"></img>
           </div>
         </div>
       </section>
@@ -103,7 +101,7 @@ function App() {
         <div className="flex flex-col justify-center items-center lg:flex lg:flex-row lg:justify-center lg:items-center">
           {/*image*/}
           <div className="">
-            <img src="https://leonidasesteban.github.io/bookmark-landing/static/images/illustration-features-tab-1.svg"></img>
+            <img src="https://leonidasesteban.github.io/bookmark-landing/static/images/illustration-features-tab-1.svg" alt="adsa"></img>
           </div>
           {/*content*/}
           <div className=" text-center mx-8 max-w-xl md:text-left md:max-w-lg md:p-7 ">
